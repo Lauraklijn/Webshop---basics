@@ -3,8 +3,10 @@ const initialState = { products: [], categories: [] };
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case "products/FETCHED": {
-      // => Ask yourself: what is action.payload?
-      return action.payload;
+      return {
+        ...state,
+        products: action.payload
+      };
     }
     default: {
       return state;

@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(235, 121, 121);
 }
 
 .App-link {
@@ -35,4 +35,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.winkelwagen {
+  text-align: right;
+}
+
+.Home-page-link {
+  text-align: left;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: black;
+}
+
+.product-card {
+  margin: 1em;
+  padding: 1em;
+}
+
+.toolbar {
+  color: pink;
 }
